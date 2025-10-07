@@ -2,6 +2,8 @@
 -- @author corentinB
 -- @version 1.0
 -- @about
+-- This script create a subproject with some tracks in it.
+-- And copy the time selection of the first track into it.
 
 
 function CreateTracks(trackColor)

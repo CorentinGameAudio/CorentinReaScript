@@ -2,6 +2,7 @@
 -- @author corentinB
 -- @version 1.0
 -- @about
+-- This script explode selected subproject items into takes and select them randomly
 
 
 function IsSubProject(item)
