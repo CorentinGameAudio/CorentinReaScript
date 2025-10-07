@@ -2,8 +2,7 @@
 -- @author corentinB
 -- @version 1.0
 -- @about
---	This script explode selected subproject items into takes and select them randomly
-
+--   This script explode selected subproject items into takes and select them randomly
 
 function IsSubProject(item)
     return select(2, reaper.GetItemStateChunk(item, '', false)):find 'SOURCE RPP_PROJECT' and true or false
