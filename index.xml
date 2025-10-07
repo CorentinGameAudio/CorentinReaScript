@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="CorentinReaScript" commit="7534e0557a32facbe6e4c9f9b0e5e08f52dd4e28">
+<index version="1" name="CorentinReaScript" commit="216763ae6bc2165624bb1b0529938178ca5d60e3">
   <category name="Example">
     <reapack name="cfillion_Hello world.lua" type="script" desc="Hello world">
       <metadata>
@@ -18,6 +18,36 @@ Markdown
       </metadata>
       <version name="1.0" author="cfillion" time="2021-01-04T23:30:32Z">
         <source main="main">https://github.com/cfillion/reapack-repository-template/raw/58a3e39ba95bd0f35846aa1f39aa4cb2574295e1/Example/cfillion_Hello%20world.lua</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="Scripts">
+    <reapack name="CreateSubproject.lua" type="script" desc="Create subproject copying first track item in time selection">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 This script create a subproject with some tracks. And copy the time selection of the first track into it.\par}
+}
+]]></description>
+      </metadata>
+      <version name="1.0" author="corentinB" time="2025-10-07T14:19:24Z">
+        <source main="main">https://github.com/CorentinGameAudio/CorentinReaScript/raw/216763ae6bc2165624bb1b0529938178ca5d60e3/Scripts/CreateSubproject.lua</source>
+      </version>
+    </reapack>
+    <reapack name="SplitSubprojectRegionIntoTakes.lua" type="script" desc="Split Subproject Regions Into Takes">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 This script explode selected subproject items into takes and select them randomly\par}
+}
+]]></description>
+      </metadata>
+      <version name="1.0" author="corentinB" time="2025-10-07T14:19:24Z">
+        <source main="main">https://github.com/CorentinGameAudio/CorentinReaScript/raw/216763ae6bc2165624bb1b0529938178ca5d60e3/Scripts/SplitSubprojectRegionIntoTakes.lua</source>
       </version>
     </reapack>
   </category>
